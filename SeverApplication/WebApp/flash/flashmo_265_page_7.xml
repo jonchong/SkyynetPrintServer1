@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+	<item>
+		<content><![CDATA[<span class="title">Page Seven - Quisque velit nulla</span>
+<p align="justify">This HTML text is dynamically loaded from <span class="highlight">the external XML file</span>. Also, the text is formatted by <span class="highlight">the external CSS file</span>. You may download <a href="http://www.flashmo.com" target="_parent">free flash templates</a> and use them for your websites.  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque et quam nec mi interdum eleifend.
+<span class="note">Mauris non quam eu velit aliquet condimentum eu ut sapien. Praesent pharetra, leo lacinia dapibus consequat, urna nibh sollicitudin quam, semper volutpat nunc tortor id odio.</span></p>
+<span class="subtitle">Pellentesque habitant morbi</span>
+<p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque condimentum ultricies rutrum. Mauris vitae dolor a felis semper bibendum a vitae felis. <span class="highlight">Nam consequat, sapien a condimentum sagittis, metus velit cursus sapien, vitae tincidunt eros mi nec neque.</span> In varius, mi sit amet commodo accumsan, ligula orci aliquet sem, nec tempus dolor magna ac nulla.
+<span class="note">Vestibulum pellentesque, urna quis suscipit dapibus, ante lectus sodales risus, ut adipiscing nibh diam in nisl. <a href="http://www.flashmo.com" target="_parent">Vestibulum faucibus</a> pharetra lobortis.</p>
+<span class="subtitle">Proin cursus augue eu ligula</span>
+<p align="justify"><a href="http://www.flashmo.com" target="_parent">Suspendisse ac magna</a> quis est eleifend dictum. In velit urna, convallis id, pharetra in, iaculis sit amet, mi. Praesent consectetur imperdiet mauris. Suspendisse at pede vel lorem pulvinar laoreet.</p>
+<p align="justify">Vestibulum ac lacus sem, sed interdum diam. Pellentesque felis tortor, pellentesque nec scelerisque nec, rhoncus pharetra enim. Maecenas pellentesque augue non ligula luctus id aliquet ipsum aliquam.</p>
+<span class="subtitle">Maecenas bibendum auctor magna</span>
+<p align="justify"><a href="http://www.flashmo.com" target="_parent">Maecenas vehicula varius</a> quam vel luctus. Integer volutpat varius odio, a sagittis dolor mollis quis. Etiam mattis condimentum magna, quis consequat nunc pharetra eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p> ]]></content>
+	</item>
+</items>

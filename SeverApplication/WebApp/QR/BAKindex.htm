@@ -1,0 +1,49 @@
+<head>
+    <style type="text/css">
+        .auto-style5 {
+            font-size: larger;
+        }
+        .auto-style6 {
+            width: 449px;
+        }
+        .auto-style8 {
+            width: 457px;
+        }
+    </style>
+</head>
+<?php
+ 
+    if (getenv('HTTP_X_FORWARDED_FOR')) {
+        $pipaddress = getenv('HTTP_X_FORWARDED_FOR');
+        $ipaddress = getenv('REMOTE_ADDR');
+echo "Your Proxy IP address is : ".$pipaddress. "(via $ipaddress)" ;
+    } else {
+        $ipaddress = getenv('REMOTE_ADDR');
+        echo "Your IP address is : $ipaddress";
+    }
+?>
+<form action="http://skyynet.cloudapp.net:8080" style="background-image: url('unnamed.png'); font-family: Andalus;">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<table style="width:93%; margin-top: 0px;"><tr>
+            <td  aria-multiline="True" style="vertical-align: bottom; text-align: center;" class="auto-style6">
+                
+                <h2><span class="auto-style5" style="font-family: Andalus">Skyynet Secret QR Code Maker</span></h2>
+                <input type="submit" value="Skyynet QR Creator" style="width:180px;font-size:19px; height:65px;"text-align: center"></td>
+            <td class="auto-style8" rowspan="2" style="vertical-align: top; text-align: center;">
+                <h3>Create &amp; Encrypt Message<br />
+                    <img alt="" src="Capture.PNG" /></h3>
+            </td>
+            <td class="auto-style8" rowspan="2" style="vertical-align: top">&nbsp;</td>
+            <td class="auto-style8" rowspan="2" style="vertical-align: top; text-align: center;">
+                <h3>Decrypt Message<img alt="" src="Capture1.PNG" /></h3>
+            </td>
+        </tr>
+        <tr>
+            </font>
+            <td  aria-multiline="True" style="vertical-align: bottom;  " class="auto-style6">
+                
+                <marquee behavior="scroll" direction="up" style="width: 543px; height: 490px;"><center><font size="7"><br>Skyynet QR Code Creator</br>By:</br>Jonathan Chong</br>&</br>
+                     Mayra Lucchesi</br>Click the button above to start</br>#1)Type in a key</br>#2)Type Message</br>#3)Click Generate
+                    </br></br><font color="green">Use a QR reader to scan.</br>It will automatically post</br>your ciphertext to our server</br>for decryption</font></center></marquee></td>
+        </tr>
+        </table>
+</form>
